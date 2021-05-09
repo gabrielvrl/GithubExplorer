@@ -13,7 +13,7 @@ module.exports = {
         filename: "bundle.js",
     },
     resolve: {
-        extensions: [".js", ".jsx", "ts", "tsx"], // o x é para sinalizar que temos um componente dentro do arquivo, componente react, com html dentro de JS
+        extensions: [".js", ".jsx", ".ts", ".tsx"], // o x é para sinalizar que temos um componente dentro do arquivo, componente react, com html dentro de JS
     },
     devServer: {
         contentBase: path.resolve(__dirname, "public"),
